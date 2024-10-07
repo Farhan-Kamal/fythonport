@@ -38,7 +38,7 @@ export default function Home() {
       words="Python Portfolio"
       />
        <LinkGrid links={links} />
-       <RainbowButton href="https://github.com/farhankamal05">Acess my GitHub!</RainbowButton>
+       <RainbowButton href="https://github.com/farhankamal05">Access my GitHub!</RainbowButton>
       <RetroGrid />
     
     </div>
