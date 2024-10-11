@@ -29,7 +29,7 @@ export default function Home() {
         </AnimatedShinyText>
       </div>
       <FadeText
-        className="mt-8 text-4xl font-bold text-black dark:text-white"
+        className="mt-8 text-base dark:text-white"
         direction="up"
         framerProps={{
           show: { transition: { delay: 0.2 } },
@@ -37,15 +37,7 @@ export default function Home() {
         text="Thomas A. Edison CTE HS"
       />
       <FadeText
-        className="mt-8 text-4xl font-bold text-black dark:text-white"
-        direction="left"
-        framerProps={{
-          show: { transition: { delay: 0.2 } },
-        }}
-        text="Thomas A. Edison CTE HS"
-      />
-      <FadeText
-        className="mt-8 text-4xl font-bold text-black dark:text-white"
+        className="mt-8 text-base dark:text-white"
         direction="right"
         framerProps={{
           show: { transition: { delay: 0.2 } },
