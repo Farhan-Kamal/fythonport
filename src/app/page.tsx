@@ -27,6 +27,9 @@ export default function Home() {
           <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </AnimatedShinyText>
       </div>
+      <h5>Thomas A. Edison CTE HS</h5>
+      <h4>Web and App Development | Programming and Prototyping</h4>
+      <h3>2024-2025</h3>
             <span>
             <TypingAnimation
       className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#004eff] via-[#0066bd] to-[#1673ff] bg-clip-text text-center text-9xl font-bold leading-none tracking-tighter text-transparent"
