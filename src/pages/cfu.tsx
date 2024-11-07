@@ -10,7 +10,13 @@ const Cfu: React.FC<CfuProps> = () => {
   return (
     <div>
       <h1>CFU Page</h1>
-      
+      <p>Work in progress...</p>
+          <Image
+      src="concept.png"
+      width={500}
+      height={500}
+      alt="Picture of the directory in the works"
+    />
     </div>
   );
 };
