@@ -12,9 +12,7 @@ import { FadeText } from "@/components/ui/fade-text";
 export default function Home() {
   const links = [
     { href: "/about", label: "About" },
-    { href: "/cfu", label: "CFU" },
-    { href: "/projects", label: "Projects" },
-    { href: "/addwork", label: "Additonal Work" },
+    { href: "/filedirectory", label: "File Directory" },
   ];
   return (
     <div className=" opacity-100 relative flex size-full flex-col h-screen items-center justify-center overflow-hidden">
