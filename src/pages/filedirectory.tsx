@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { useState } from "react";
 import { FileTree } from "@/components/file-explorer/file-tree";
 import { ContentView } from "@/components/file-explorer/content-view";
+import 'tailwindcss/tailwind.css';
 
 const INITIAL_DATA = {
   title: "File Directory",
@@ -363,8 +364,8 @@ export default function Home() {
     router.back();
   };
   return (
-    <div className="flex h-screen bg-background">
-      <div className="w-64 border-r bg-muted/10">
+    <div className="flex h-screen bg-background grid grid-cols-3">
+      <div className="col-span-1 w-64 border-r bg-muted/10">
         <div className="p-2 font-semibold text-sm">Explorer</div>
         <button type="button" onClick={handleGoBack}>
               Return
@@ -374,7 +375,7 @@ export default function Home() {
             onSelect={(node) => node.content && setSelectedContent(node.content)}
           />
       </div>
-      <div className="flex-1 overflow-auto">
+      <div className="col-span-2 flex-1 overflow-auto">
         <ContentView {...selectedContent} />
       </div>
     </div>
